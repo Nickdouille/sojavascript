@@ -29,5 +29,6 @@ Ces trois modes de vie lui ont vallu maints visages et l'ont affublé de moults 
 En effet, le langage s'est enrichi en bien mais aussi en mal. Le problème, c'est que Javascript doit garder aussi bien ses bons que ses mauvais côtés. Quid des sites de l'an 2000 qui utilisent encore du Javascript Grunge ? Ils seraient inutilisables.
 C'est pourquoi chaque développeur doit avoir conscience des failles du langage, ne pas les utiliser mais n'user que du meilleur.
 
-J'espère pouvoir mettre en oeuvre dans ce blog autant de bonnes pratiques que possible afin de ne sortir de ce langage à la  pléthore de facettes que le masque qui lui va le mieux.
-Tout ça dans le but d'être ... SoJavascript !
+J'espère pouvoir mettre en oeuvre dans ce blog autant de bonnes pratiques que possible afin de ne sortir de ce langage, à la  pléthore de facettes, que le masque qui lui va le mieux.
+
+Tout ça dans le but d'être ... **SoJavascript** !
