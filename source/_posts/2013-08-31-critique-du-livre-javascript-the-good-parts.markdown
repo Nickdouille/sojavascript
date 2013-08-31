@@ -11,7 +11,7 @@ categories: [javascript, critique]
 Ce livre, écrit par Douglas Crockford, est destiné à un public intermédiaire en Javascript, ayant déjà connaissance des bases du langage. Il est court, une centaine de pages sans les annexes. Les "bonnes pratiques", selon l'auteur, sont décrites de façons claires, concises et facilement compréhensibles pour peu que vous ayez déjà des notions en Javascript.
 
 Afin de bien comprendre le but du livre, il est nécessaire de savoir qui est ce Douglas "Papa" Crockford et pourquoi Javascript a des mauvais côtés. Sir D. Crockford est considéré comme l'un des pères de Javascript par la communauté éponyme. Il est le créateur du fameux format [JSON](http://json.org) et de l'outil [JSLint](jslint.com).
-
+<!--more-->
 Le premier est un format d'échange de données facile pour nous, développeurs, à lire et à écrire et, indépendant de tout langage. Il est très utile pour la communication entre un client et un serveur de par sa légèreté et ses outils (parse <> stringify). Par exemple, ceci est un JSON :
 
     {
