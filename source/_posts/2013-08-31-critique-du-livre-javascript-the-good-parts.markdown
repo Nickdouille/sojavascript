@@ -4,6 +4,7 @@ title: "Critique du livre JavaScript: The Good Parts"
 date: 2013-08-31 00:14
 comments: true
 categories: [javascript, critique]
+keywords: javascript, critique, livre, the good parts, douglas crockford
 --- 
 ### de Douglas Crockford
 ##### ISBN-10: 0596517742 / ISBN-13: 978-0596517748
