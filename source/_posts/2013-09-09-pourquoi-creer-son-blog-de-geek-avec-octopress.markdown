@@ -6,7 +6,7 @@ comments: true
 categories: [blog, octopress, tutoriel]
 keywords: blog, octopress, pourquoi, comment, créer
 ---
-## ... et laisser tomber le gros Wordpress
+### ... et laisser tomber le gros Wordpress
 
 Soyons clairs, je ne connais pas Wordpress intimement. Ce sous-titre a simplement une vocation trollesque :)
 Je n'ai jamais travaillé avec, si ce n'est l'avoir installé *"pour tester"*. Cet article ne sera donc ni une comparaison [Octopress](http://octopress.org/)/[Wordpress](http://wordpress.com/) ni une critique de Wordpress qui n'a d'ailleurs rien à prouver. A l'heure où j'écris ces lignes, environ [70 millions](http://en.wordpress.com/stats/) de personnes pourront vous dire que Wordpress, c'est le pied. Par contre, [un nombre plus limité](https://github.com/imathis/octopress/wiki/Octopress-Sites) vous parlera d'Octopress.
@@ -73,7 +73,7 @@ Ce qui est dommage, c'est qu'il faille toucher à certains fichiers du coeur pou
 Que vous changiez une lettre dans un fichier ou ajoutez un nouvel article, il faudra régénérer tout le blog. Du coup, un blog avec un nombre conséquent d'articles peut engendrer une attente non négligeable. (j'ai vu quelque part 1min10 environ pour 1'000 articles).
 
 # Conclusion
-J'ai donc créé mon blog avec Octopress pour la simplicité, la solution rbuste de blogging et les performances qu'il offre tout en nécessitant de faible coût (voire nul) de fonctionnement. A titre d'exemple, voici comment je publie un article :
+J'ai donc créé mon blog avec Octopress pour la simplicité, la solution robuste de blogging et les performances qu'il offre tout en nécessitant de faible coût (voire nul) de fonctionnement. A titre d'exemple, voici comment je publie un article :
 
 - ouvrir un [gist](https://gist.github.com/) au format `markdown` (`.md`) pour pouvoir travailler dessus de n'importe où, le faire corriger, etc.
 - Une fois corrigé et révisé je me connecte sur ma machine, me place dans le répertoire où tout le code du blog est versionné (`git`) et lance `rake new_post["Mon titre d'article"]`
