@@ -18,6 +18,7 @@
 # - category_dir:          The subfolder to build category pages in (default is 'categories').
 # - category_title_prefix: The string used before the category name in the page title (default is
 #                          'Category: ').
+# - category_meta_description_prefix: The string used for the meta description tag (default is 'Category: ').
 
 require 'stringex'
 
@@ -44,7 +45,7 @@ module Jekyll
       title_prefix             = site.config['category_title_prefix'] || 'Category: '
       self.data['title']       = "#{title_prefix}#{category}"
       # Set the meta-description for this page.
-      meta_description_prefix  = site.config['category_meta_description_prefix'] || 'Category: '
+      meta_description_prefix  = site.config['category_meta_description_prefix'] || site.config['description'] || 'Category: '
       self.data['description'] = "#{meta_description_prefix}#{category}"
     end
 
@@ -71,7 +72,7 @@ module Jekyll
       title_prefix             = site.config['category_title_prefix'] || 'Category: '
       self.data['title']       = "#{title_prefix}#{category}"
       # Set the meta-description for this page.
-      meta_description_prefix  = site.config['category_meta_description_prefix'] || 'Category: '
+      meta_description_prefix  = site.config['category_meta_description_prefix'] || site.config['description'] || 'Category: '
       self.data['description'] = "#{meta_description_prefix}#{category}"
 
       # Set the correct feed URL.

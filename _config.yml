@@ -9,6 +9,7 @@ author: Cyril Moreau
 simple_search: http://google.com/search
 description: Blog francophone Javascript. Articles sur le Javascript, critiques de livre et développement front-end
 keywords: blog, javascript, français, francophone, articles, critiques, développement, front-end
+site_lang: fr
 
 # Put &default in front of your dictionary
 fr: &default
@@ -95,6 +96,7 @@ destination: public
 plugins: plugins
 code_dir: downloads/code
 category_dir: blog/categories
+category_title_prefix: 'Catégorie : '
 markdown: rdiscount
 rdiscount:
   extensions:
@@ -138,9 +140,9 @@ twitter_tweet_button: true
 google_plus_one: true
 google_plus_one_size: medium
 
-# Google Plus Profile
+# Google Plus Profile - 103585375909145220500
 # Hidden: No visible button, just add author information to search results
-googleplus_user: 103585375909145220500
+googleplus_user: +CyrilMoreau
 googleplus_hidden: false
 
 # Pinboard
