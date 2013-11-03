@@ -29,6 +29,7 @@ fr: &default
   search: Rechercher
   subRss: suivre via RSS
   sub_email: suivre via email
+  find_me: Pour ne rien rater
   loading: Chargement...
   twitter_follow: Suivre
   twitter_latest: Latest Tweets
@@ -57,6 +58,7 @@ en:
   search: Search
   sub_rss: subscribe via RSS
   sub_email: subscribe via email
+  find_me: Find me on
   loading: Loading...
   twitter_follow: Follow
   twitter_latest: Latest Tweets
@@ -114,7 +116,7 @@ titlecase: false      # Converts page and post titles to titlecase
 
 # list each of the sidebar modules you want to include, in the order you want them to appear.
 # To add custom asides, create files in /source/_includes/custom/asides/ and add them to the list like 'custom/asides/custom_aside_name.html'
-default_asides: [asides/recent_posts.html, asides/github.html, asides/googleplus.html, asides/amazon.html]
+default_asides: [asides/recent_posts.html, asides/socials.html, asides/amazon.html]
 
 # Each layout uses the default asides, but they can have their own asides instead. Simply uncomment the lines below
 # and add an array with the asides you want to use.
