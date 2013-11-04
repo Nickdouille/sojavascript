@@ -22,6 +22,8 @@ fr: &default
   on: sur
   posted_in: posté dans
   posted_by: Posté par
+  excerpt_link: "Lire plus &rarr;"    
+  category_title_prefix: 'Catégorie : '                          
   updated: Mis à jour
   nav_about: A propos
   nav_archives: Liste des articles
@@ -51,6 +53,8 @@ en:
   on: on
   posted_in: posted in
   posted_by: Posted by
+  excerpt_link: "More &rarr;"  
+  category_title_prefix: 'Category: '
   updated: Updated
   nav_about: About
   nav_archives: Archive
@@ -98,7 +102,6 @@ destination: public
 plugins: plugins
 code_dir: downloads/code
 category_dir: blog/categories
-category_title_prefix: 'Catégorie : '
 markdown: rdiscount
 rdiscount:
   extensions:
@@ -110,7 +113,6 @@ pygments: false # default python pygments have been replaced by pygments.rb
 paginate: 10          # Posts per page on the blog index
 pagination_dir: blog  # Directory base for pagination URLs eg. /blog/page/2/
 recent_posts: 5       # Posts in the sidebar Recent Posts section
-excerpt_link: "Lire plus &rarr;"  # "Continue reading" link text at the bottom of excerpted articles
 
 titlecase: false      # Converts page and post titles to titlecase
 
