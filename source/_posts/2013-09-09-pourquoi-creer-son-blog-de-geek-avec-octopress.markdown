@@ -81,13 +81,10 @@ J'ai donc créé mon blog avec Octopress pour la simplicité, la solution robust
 - `rake gen_deploy`
 
 # Pour aller plus loin
-Dans un prochain article, je listerai les commandes que j'utilise le plus et expliquerai, entre autres, comment :
+D'autres articles sur [Octopress]({{site.url}}/blog/categories/octopress/) suivront, notamment :
 
-- j'ai installé Octopress sur mon environnement (Ubuntu 12.04)
-- bien choisir sa solution d'hébergement (gratuite !) et pourquoi j'ai choisi `alwaysdata.net` 
-- bien paramétrer le nom de domaine avec la solution d'hébergement
-- poster un article, modifier les méta données
-- ajouter une nouvelle page
+- installer Octopress (environnement Ubuntu 12.04), déployer sur un serveur `alwaysdata.net` et relier à un domaine (OVH)
+- profiter de la puissance de Git
+- poster un article, modifier les méta données, ajouter une nouvelle page
 - franciser tous les termes, malheureusement, *"en dur"* dans le code
 - corriger les *bizarreries* qui ne sont pas encore corrigées dans la branche principale (`meta description` et `keywords`)
-- utiliser `git` pour les tâches courantes
