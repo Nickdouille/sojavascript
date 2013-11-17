@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Pourquoi créer son blog (de geek) avec Octopress"
+title: "Pourquoi créer son blog (de geek) avec Octopress ?"
 date: 2013-09-09 23:44
 comments: true
 categories: [blog, octopress, tutoriel]
 keywords: blog, octopress, pourquoi, comment, créer
 ---
-### ... et laisser tomber le gros Wordpress
+### et laisser tomber le gros Wordpress
 
 Soyons clairs, je ne connais pas Wordpress intimement. Ce sous-titre a simplement une vocation trollesque :)
 Je n'ai jamais travaillé avec, si ce n'est l'avoir installé *"pour tester"*. Cet article ne sera donc ni une comparaison [Octopress](http://octopress.org/)/[Wordpress](http://wordpress.com/) ni une critique de Wordpress qui n'a d'ailleurs rien à prouver. A l'heure où j'écris ces lignes, environ [70 millions](http://en.wordpress.com/stats/) de personnes pourront vous dire que Wordpress, c'est le pied. Par contre, [un nombre plus limité](https://github.com/imathis/octopress/wiki/Octopress-Sites) vous parlera d'Octopress.
@@ -16,7 +16,7 @@ Parce que c'est cool et comme ça, je passe pour un bon geek crédible ! Non ? T
 
 Avant de me lancer dans un blog, j'avais quelques besoins et contraintes :
 
-- ne pas payer un hébergement supplémentaire pour me lancer de le blogging. Après tout, ce n'est peut-être qu'une lubie qui s'estompera dans quelques temps ! *dixit le type qui a quand même acheté un nom de domaine*
+- ne pas payer un hébergement supplémentaire pour me lancer dans le blogging. Après tout, ce n'est peut-être qu'une lubie qui s'estompera dans quelques temps ! *dixit le type qui a quand même acheté un nom de domaine*
 - mettre à jour et déployer le blog le plus simplement possible (comprendre un clic ou une ligne de commande)
 - pas d'interface admin lourde avec gestion de droits / utilisateurs / plugins etc
 - pourvoir installer / supprimer un thème facilement
@@ -83,7 +83,7 @@ J'ai donc créé mon blog avec Octopress pour la simplicité, la solution robust
 # Pour aller plus loin
 D'autres articles sur [Octopress]({{site.url}}/blog/categories/octopress/) suivront, notamment :
 
-- installer Octopress (environnement Ubuntu 12.04), déployer sur un serveur `alwaysdata.net` et relier à un domaine (OVH)
+- [installer Octopress (environnement Ubuntu 12.04), déployer sur un serveur `alwaysdata.net` et relier à un domaine (OVH)]({{site.url}}/blog/2013/11/06/comment-creer-et-mettre-en-ligne-un-blog-avec-octopress/)
 - profiter de la puissance de Git
 - poster un article, modifier les méta données, ajouter une nouvelle page
 - franciser tous les termes, malheureusement, *"en dur"* dans le code
