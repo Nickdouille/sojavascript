@@ -33,6 +33,7 @@ fr: &default
   subRss: suivre via RSS
   sub_email: suivre via email
   find_me: Suivez-moi
+  license_text: Ce produit est distribué sous licence
   loading: Chargement...
   twitter_follow: Suivre
   twitter_latest: Latest Tweets
@@ -65,6 +66,7 @@ en:
   sub_rss: subscribe via RSS
   sub_email: subscribe via email
   find_me: Find me on
+  license_text: This work is licensed under a
   loading: Loading...
   twitter_follow: Follow
   twitter_latest: Latest Tweets
