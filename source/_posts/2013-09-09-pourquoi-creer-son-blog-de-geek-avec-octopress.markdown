@@ -6,11 +6,15 @@ comments: true
 categories: [blog, octopress, tutoriel]
 keywords: blog, octopress, pourquoi, comment, créer
 ---
-### et laisser tomber le gros Wordpress
+*et laisser tomber le gros Wordpress*
+
+* TOC
+{:toc}
 
 Soyons clairs, je ne connais pas Wordpress intimement. Ce sous-titre a simplement une vocation trollesque :)
 Je n'ai jamais travaillé avec, si ce n'est l'avoir installé *"pour tester"*. Cet article ne sera donc ni une comparaison [Octopress](http://octopress.org/)/[Wordpress](http://wordpress.com/) ni une critique de Wordpress qui n'a d'ailleurs rien à prouver. A l'heure où j'écris ces lignes, environ [70 millions](http://en.wordpress.com/stats/) de personnes pourront vous dire que Wordpress, c'est le pied. Par contre, [un nombre plus limité](https://github.com/imathis/octopress/wiki/Octopress-Sites) vous parlera d'Octopress.
 <!--more-->
+
 # Pourquoi j'ai choisi Octopress ?
 Parce que c'est cool et comme ça, je passe pour un bon geek crédible ! Non ? Tant pis j'aurais essayé :)
 

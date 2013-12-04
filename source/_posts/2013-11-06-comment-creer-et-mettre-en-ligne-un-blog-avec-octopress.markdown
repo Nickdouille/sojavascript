@@ -6,16 +6,21 @@ comments: true
 categories: [blog, octopress, tutoriel]
 keywords: blog, octopress, comment, créer, déployer, mettre en ligne, héberger
 ---
-### sur Ubuntu et hébergement alwaysdata
+*sur Ubuntu et hébergement alwaysdata*
+
+* TOC
+{:toc}
 
 Comme je l'ai dit dans le premier post [Pourquoi créer son blog (de geek) avec Octopress ?]({{site.url}}/blog/2013/09/09/pourquoi-creer-son-blog-de-geek-avec-octopress/), il ne faut pas avoir peur de taper quelques lignes de commande pour gérer le blog. Aucune interface graphique n'est à disposition.
 Octopress a besoin de quelques prérequis pour fonctionner :
+
 - [git](http://git-scm.com/) pour récupérer Octopress, le mettre à jour et versionner ses fichiers
 - Ruby 1.9.3 utilisant une machine virtuelle (par exemple [RVM](http://octopress.org/docs/setup/rvm))
 
 Pour le reste, comme chaque environnement est spécifique, le mieux est de lire la [documentation](http://octopress.org/docs/setup/) très rapide et claire.
 Cependant, si vous êtes, comme moi, sous Ubuntu (12.04), voici comment j'ai procédé (fin août 2013) :
 <!--more-->
+
 # Installation des dépendances (Git, RVM, Ruby)
 
     # Installation de git

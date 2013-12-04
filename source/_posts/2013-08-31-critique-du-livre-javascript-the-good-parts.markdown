@@ -7,7 +7,7 @@ categories: [javascript, critique]
 keywords: javascript, critique, livre, the good parts, douglas crockford
 --- 
 ### de Douglas Crockford
-##### ISBN-10: 0596517742 / ISBN-13: 978-0596517748
+*ISBN-10: 0596517742 / ISBN-13: 978-0596517748*
 
 Ce livre, écrit par Douglas Crockford, est destiné à un public intermédiaire en Javascript, ayant déjà connaissance des bases du langage. Il est court, une centaine de pages sans les annexes. Les "bonnes pratiques", selon l'auteur, sont décrites de façons claires, concises et facilement compréhensibles pour peu que vous ayez déjà des notions en Javascript.
 
