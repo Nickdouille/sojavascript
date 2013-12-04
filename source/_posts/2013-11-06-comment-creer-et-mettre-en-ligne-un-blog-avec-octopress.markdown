@@ -10,7 +10,6 @@ keywords: blog, octopress, comment, créer, déployer, mettre en ligne, héberge
 
 Comme je l'ai dit dans le premier post [Pourquoi créer son blog (de geek) avec Octopress ?]({{site.url}}/blog/2013/09/09/pourquoi-creer-son-blog-de-geek-avec-octopress/), il ne faut pas avoir peur de taper quelques lignes de commande pour gérer le blog. Aucune interface graphique n'est à disposition.
 Octopress a besoin de quelques prérequis pour fonctionner :
-
 - [git](http://git-scm.com/) pour récupérer Octopress, le mettre à jour et versionner ses fichiers
 - Ruby 1.9.3 utilisant une machine virtuelle (par exemple [RVM](http://octopress.org/docs/setup/rvm))
 
@@ -71,7 +70,7 @@ A ce stade, Octopress est installé mais le blog n'est pas encore généré. En 
 - _config.yml : ce fichier recense les variables d'environnement nécessaires à la personnalisation du blog
 - Rakefile : ce fichier définit toutes les tâches de gestion du blog (pour installer un thème, pour générer le blog, le déployer, etc) et les informations de l'hébergement
 
-Ouvrir le fichier `_config.yml`. Il est très compréhensible et les variables parlent d'elle même. On y configure, entre autres, le format de date, nos identifiants de réseaux sociaux, le système de commentaires des posts.
+Ouvrir le fichier `_config.yml`. Il est très compréhensible et les variables parlent d'elles-mêmes. On y configure, entre autres, le format de date, nos identifiants de réseaux sociaux, le système de commentaires des posts.
 
 ### Configuration de l'hébergement
 
@@ -89,6 +88,7 @@ Une fois inscrit, dans le [panneau d'administration SSH](https://admin.alwaysdat
 Revenir dans le [panneau d'administration SSH](https://admin.alwaysdata.com/ssh/) afin de définir le répertoire `home`. Ainsi, à chaque connexion, on démarrera directement de ce dossier. (Dans mon cas : `/www/sojavascript`)
 
 Dans le [panneau d'administration des sites](https://admin.alwaysdata.com/site/), il faut paramétrer le blog :
+
 - le répertoire qui contiendra le code du blog. Dans mon cas : `/www/sojavascript/`
 - les DNS attachés à l'hébergement (peu importe d'où ils viennent, je les ai pris chez OVH). Dans mon cas : `sojavascript.com`, `sojavascript.fr` 
 
@@ -108,6 +108,7 @@ Avant de générer le blog, il faut lui choisir un thème. Par défaut, Octopres
     rake install # équivaut à rake install['classic']. Remplacer classic par le nom d'un autre thème le cas échéant
 
 Cela va tout simplement créer deux nouveaux dossiers qui vont être copiés à partir de `.themes/classic`
+
 - sass : contient toutes les feuilles de style
 - source : contient les fichiers de templates du blog
 
