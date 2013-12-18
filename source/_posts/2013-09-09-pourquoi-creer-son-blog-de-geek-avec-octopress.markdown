@@ -32,7 +32,7 @@ Après avoir écumé les forums, les *benchmarks*, les différences entre plusie
 # Un blog fait par des geeks, pour les geeks
 Octopress en a fait sa devise : `A blogging framework for hackers.`
 
-![A blogging framework for hackers]({{ root_url }}/images/octopress.jpg "A blogging framework for hackers")
+![A blogging framework for hackers]({{ root_url }}/images/post/octopress.jpg "A blogging framework for hackers")
 
 Il ne faut pas avoir peur de : 
 
