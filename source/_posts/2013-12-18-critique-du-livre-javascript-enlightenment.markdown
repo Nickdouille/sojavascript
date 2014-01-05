@@ -17,6 +17,11 @@ A book to turn a JavaScript library user into a JavaScript developer
 {% endblockquote %}
 
 <!--more-->
+
+{:.imgPostCenter}
+[![Couverture du livre JavaScript Enlightenment]({{ root_url }}/images/post/javascript_enlightenment.gif "Couverture du livre JavaScript Enlightenment")](http://www.amazon.fr/gp/product/1449342884/ref=as_li_tf_il?ie=UTF8&camp=1642&creative=6746&creativeASIN=1449342884&linkCode=as2&tag=sojava-21)<br>
+[JavaScript Enlightenment](http://www.amazon.fr/gp/product/1449342884/ref=as_li_tf_il?ie=UTF8&camp=1642&creative=6746&creativeASIN=1449342884&linkCode=as2&tag=sojava-21)
+
 Ce livre, écrit par Cody Lindley, transformera, selon lui, les développeurs utilisant des librairies (par exemple, jQuery) en développeur JavaScript. Je n'ai pas compris pourquoi. Selon moi, ce livre aurait dû s'appeler "JavaScript : **Object** Enlightenment".
 
 ### Contexte : 
