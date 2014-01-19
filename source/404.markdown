@@ -1,0 +1,9 @@
+---
+layout: page
+title: "404"
+comments: false
+sharing: false
+footer: false
+---
+{:.imgPostCenter}
+![404]({{ root_url }}/images/404.gif "404")<br>
