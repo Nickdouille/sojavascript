@@ -28,6 +28,7 @@ fr: &default
   updated: Mis à jour
   nav_about: A propos
   nav_archives: Liste des articles
+  nav_categories: Liste des catégories
   foot_powered_by: Propulsé par
   search: Rechercher
   subRss: suivre via RSS
@@ -61,6 +62,7 @@ en:
   updated: Updated
   nav_about: About
   nav_archives: Archive
+  nav_categories: Categories
   foot_powered_by: Powered by
   search: Search
   sub_rss: subscribe via RSS
