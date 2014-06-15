@@ -31,6 +31,9 @@ Cependant, si vous êtes, comme moi, sous Ubuntu (12.04), voici comment j'ai pro
     
     # Installation de Ruby 1.9.3
     rvm install 1.9.3
+
+    # Indiquer à rvm d'utiliser Ruby 1.9.3
+    [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
     rvm use 1.9.3
     
     # Récupérer le gestionnaire de paquets Ruby (équivalent de npm pour Node par exemple)
