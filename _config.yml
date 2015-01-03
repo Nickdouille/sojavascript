@@ -1,0 +1,170 @@
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
+
+url: http://sojavascript.com
+title: SoJavaScript
+subtitle: JavaScript, critiques et développement front-end
+author: Cyril Moreau
+simple_search: https://www.google.com/search
+description: Blog francophone Javascript. Articles sur le Javascript, critiques de livre et développement front-end
+keywords: blog, javascript, français, francophone, articles, critiques, développement, front-end
+site_lang: fr
+
+# Put &default in front of your dictionary
+fr: &default
+  comments: Commentaires
+  next_post: Article suivant
+  prev_post: Article précédent
+  older: Anciens
+  newer: Nouveaux
+  recent_posts: Derniers articles
+  categories_list: Catégories
+  on: sur
+  posted_in: posté dans
+  posted_by: Posté par
+  excerpt_link: "Lire plus &rarr;"    
+  category_title_prefix: 'Catégorie : '                          
+  updated: Mis à jour
+  nav_about: A propos
+  nav_archives: Liste des articles
+  nav_categories: Liste des catégories
+  foot_powered_by: Propulsé par
+  search: Rechercher
+  subRss: suivre via RSS
+  sub_email: suivre via email
+  find_me: Suivez-moi
+  license_text: Ce produit est distribué sous licence
+  loading: Chargement...
+  twitter_follow: Suivre
+  twitter_latest: Latest Tweets
+  pinboard_text: Mes favoris Pinboard &raquo;
+  google_plus_text: Profil Google+
+  delicious_text: Mes favoris Delicious &raquo;
+  resume_text: CV
+  amazon_text: Livres critiqués
+  disqus_powered: commentaires propulsés par Disqus
+  disqus_js_text: Veuillez activer JavaScript pour voir les
+  
+en:
+  comments: Comments
+  next_post: Next
+  prev_post: Previous
+  older: Older
+  newer: Newer
+  recent_posts: Recent posts
+  categories_list: Categories
+  on: on
+  posted_in: posted in
+  posted_by: Posted by
+  excerpt_link: "More &rarr;"  
+  category_title_prefix: 'Category: '
+  updated: Updated
+  nav_about: About
+  nav_archives: Archive
+  nav_categories: Categories
+  foot_powered_by: Powered by
+  search: Search
+  sub_rss: subscribe via RSS
+  sub_email: subscribe via email
+  find_me: Find me on
+  license_text: This work is licensed under a
+  loading: Loading...
+  twitter_follow: Follow
+  twitter_latest: Latest Tweets
+  pinboard_text: My Pinboard Bookmarks &raquo;
+  google_plus_text: Google+ Profile
+  delicious_text: My Pinboard Bookmarks &raquo;
+  resume_text: Resume
+  amazon_text: Books reviewed
+  disqus_powered: comments powered by Disqus
+  disqus_js_text: Please enable JavaScript to view the
+
+# Don't touch it
+i18n:
+  <<: *default
+
+# Default date format is "ordinal" (resulting in "July 22nd 2007")
+# You can customize the format as defined in
+# http://www.ruby-doc.org/core-1.9.2/Time.html#method-i-strftime
+# Additionally, %o will give you the ordinal representation of the day
+date_format: "%d/%m/%Y"
+
+# RSS / Email (optional) subscription links (change if using something like Feedburner)
+subscribe_rss: /atom.xml
+subscribe_email:
+# RSS feeds can list your email address if you like
+email:
+
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
+
+# If publishing to a subdirectory as in http://site.com/project set 'root: /project'
+root: /
+permalink: /blog/:year/:month/:day/:title/
+source: source
+destination: public
+plugins: plugins
+code_dir: downloads/code
+category_dir: blog/categories
+markdown: kramdown
+highlighter: pygments       # default python pygments have been replaced by pygments.rb
+
+paginate: 10                # Posts per page on the blog index
+paginate_path: "posts/:num" # Directory base for pagination URLs eg. /posts/2/
+recent_posts: 5             # Posts in the sidebar Recent Posts section
+excerpt_separator: "<!--more-->"
+
+titlecase: false            # Converts page and post titles to titlecase
+
+# list each of the sidebar modules you want to include, in the order you want them to appear.
+# To add custom asides, create files in /source/_includes/custom/asides/ and add them to the list like 'custom/asides/custom_aside_name.html'
+default_asides: [asides/recent_posts.html, asides/socials.html, asides/categories_list.html]
+
+# Each layout uses the default asides, but they can have their own asides instead. Simply uncomment the lines below
+# and add an array with the asides you want to use.
+# blog_index_asides:
+# post_asides:
+# page_asides:
+
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
+
+# Github repositories
+github_user: Nickdouille
+github_repo_count: 0
+github_show_profile_link: true
+github_skip_forks: true
+
+# Twitter
+twitter_user: cycymomo
+twitter_tweet_button: true
+
+# Google +1
+google_plus_one: true
+google_plus_one_size: medium
+
+# Google Plus Profile - 103585375909145220500
+# Hidden: No visible button, just add author information to search results
+googleplus_user: +CyrilMoreau
+googleplus_hidden: false
+
+# Pinboard
+pinboard_user:
+pinboard_count: 3
+
+# Delicious
+delicious_user: nickdouille
+delicious_count: 3
+
+# Disqus Comments
+disqus_short_name: sojavascript
+disqus_show_comment_count: true
+
+# Google Analytics
+google_analytics_tracking_id: UA-42425008-3
+
+# Facebook Like
+facebook_like: false

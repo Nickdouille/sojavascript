@@ -139,3 +139,20 @@ article + article {
     }
   }
 }
+
+// TOC
+#markdown-toc:before {
+  content: "Sommaire";
+  font-weight: bold;
+}
+ul#markdown-toc {
+  list-style: none;
+  float: right;
+  margin-left: 5px;
+  background-color: #fff;
+  @include shadow-box;
+}
+
+.blog-index #markdown-toc {
+  display: none;
+}

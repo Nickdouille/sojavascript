@@ -2,17 +2,17 @@
 <section>
   <h1>GitHub</h1>
   <ul id="gh_repos">
-    <li class="loading">Mise à jour ...</li>
+    <li class="loading">{{ site.i18n.loading }}</li>
   </ul>
   {% if site.github_show_profile_link %}
-  <a href="https://github.com/{{site.github_user}}" target="_blank">@{{site.github_user}}</a> sur GitHub
+  <a href="https://github.com/{{site.github_user}}" target="_blank">@{{site.github_user}}</a> {{ site.i18n.on }} GitHub
   {% endif %}
   <script type="text/javascript">
-    $.domReady(function(){
+    $(document).ready(function(){
         if (!window.jXHR){
             var jxhr = document.createElement('script');
             jxhr.type = 'text/javascript';
-            jxhr.src = '{{ root_url}}/javascripts/libs/jXHR.js';
+            jxhr.src = '{{root_url}}/javascripts/libs/jXHR.js';
             var s = document.getElementsByTagName('script')[0];
             s.parentNode.insertBefore(jxhr, s);
         }

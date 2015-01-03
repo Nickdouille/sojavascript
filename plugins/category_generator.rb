@@ -18,6 +18,7 @@
 # - category_dir:          The subfolder to build category pages in (default is 'categories').
 # - category_title_prefix: The string used before the category name in the page title (default is
 #                          'Category: ').
+# - category_meta_description_prefix: The string used for the meta description tag (default is 'Category: ').
 
 require 'stringex'
 
@@ -41,10 +42,10 @@ module Jekyll
       self.read_yaml(File.join(base, '_layouts'), 'category_index.html')
       self.data['category']    = category
       # Set the title for this page.
-      title_prefix             = site.config['category_title_prefix'] || 'Category: '
+      title_prefix             = site.config['i18n']['category_title_prefix'] || 'Category: '
       self.data['title']       = "#{title_prefix}#{category}"
       # Set the meta-description for this page.
-      meta_description_prefix  = site.config['category_meta_description_prefix'] || 'Category: '
+      meta_description_prefix  = site.config['category_meta_description_prefix'] || site.config['description'] || 'Category: '
       self.data['description'] = "#{meta_description_prefix}#{category}"
     end
 
@@ -68,10 +69,10 @@ module Jekyll
       self.read_yaml(File.join(base, '_includes/custom'), 'category_feed.xml')
       self.data['category']    = category
       # Set the title for this page.
-      title_prefix             = site.config['category_title_prefix'] || 'Category: '
+      title_prefix             = site.config['i18n']['category_title_prefix'] || 'Category: '
       self.data['title']       = "#{title_prefix}#{category}"
       # Set the meta-description for this page.
-      meta_description_prefix  = site.config['category_meta_description_prefix'] || 'Category: '
+      meta_description_prefix  = site.config['category_meta_description_prefix'] || site.config['description'] || 'Category: '
       self.data['description'] = "#{meta_description_prefix}#{category}"
 
       # Set the correct feed URL.
@@ -153,16 +154,7 @@ ERR
     # Returns string
     #
     def category_links(categories)
-      categories = categories.sort!.map { |c| category_link c }
-
-      case categories.length
-      when 0
-        ""
-      when 1
-        categories[0].to_s
-      else
-        "#{categories[0...-1].join(', ')}, #{categories[-1]}"
-      end
+      categories.sort.map { |c| category_link c }.join(', ')
     end
 
     # Outputs a single category as an <a> link.
@@ -183,8 +175,8 @@ ERR
     # Returns string
     def date_to_html_string(date)
       result = '<span class="month">' + date.strftime('%b').upcase + '</span> '
-      result += date.strftime('<span class="day">%d</span> ')
-      result += date.strftime('<span class="year">%Y</span> ')
+      result << date.strftime('<span class="day">%d</span> ')
+      result << date.strftime('<span class="year">%Y</span> ')
       result
     end
 

@@ -1,0 +1,10 @@
+<section>
+  <h1>{{ site.i18n.categories_list }}</h1>
+  <ul id="categories_list">
+    {% for category in site.categories %}
+      <li class="post">
+        <a href="/blog/categories/{{ category[0] }}/">{{ category[0] | capitalize }}</a> ({{ category[1].size }})
+      </li>
+    {% endfor %}
+  </ul>
+</section>
