@@ -13,3 +13,4 @@ vendor
 node_modules
 Rakefile
 _config.yml
+nbproject
