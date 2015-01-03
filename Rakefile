@@ -175,7 +175,7 @@ end
 
 desc "Clean out caches: .pygments-cache, .gist-cache, .sass-cache"
 task :clean do
-  rm_rf [".pygments-cache/**", ".gist-cache/**", ".sass-cache/**", "source/stylesheets/screen.css"]
+  rm_rf [Dir.glob(".pygments-cache/**"), Dir.glob(".gist-cache/**"), Dir.glob(".sass-cache/**"), "source/stylesheets/screen.css"]
 end
 
 desc "Move sass to sass.old, install sass theme updates, replace sass/custom with sass.old/custom"
@@ -341,8 +341,7 @@ task :setup_github_pages, :repo do |t, args|
       end
     end
   end
-  url = "http://#{user}.github.io"
-  url += "/#{project}" unless project == ''
+  url = blog_url(user, project, source_dir)
   jekyll_config = IO.read('_config.yml')
   jekyll_config.sub!(/^url:.*$/, "url: #{url}")
   File.open('_config.yml', 'w') do |f|
@@ -352,7 +351,7 @@ task :setup_github_pages, :repo do |t, args|
   mkdir deploy_dir
   cd "#{deploy_dir}" do
     system "git init"
-    system "echo 'My Octopress Page is coming soon &hellip;' > index.html"
+    system 'echo "My Octopress Page is coming soon &hellip;" > index.html'
     system "git add ."
     system "git commit -m \"Octopress init\""
     system "git branch -m gh-pages" unless branch == 'master'
@@ -364,7 +363,7 @@ task :setup_github_pages, :repo do |t, args|
       f.write rakefile
     end
   end
-  puts "\n---\n## Now you can deploy to #{url} with `rake deploy` ##"
+  puts "\n---\n## Now you can deploy to #{repo_url} with `rake deploy` ##"
 end
 
 def ok_failed(condition)
@@ -387,6 +386,17 @@ def ask(message, valid_options)
     answer = get_stdin(message)
   end
   answer
+end
+
+def blog_url(user, project, source_dir)
+  cname = "#{source_dir}/CNAME"
+  url = if File.exists?(cname)
+    "http://#{IO.read(cname).strip}"
+  else
+    "http://#{user.downcase}.github.io"
+  end
+  url += "/#{project}" unless project == ''
+  url
 end
 
 desc "list tasks"
