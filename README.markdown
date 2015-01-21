@@ -1,3 +1,11 @@
+## This is a fork for my personal blog
+
+Dev : 
+  - rake preview : [http://localhost:4000/](http://localhost:4000/)
+  - netstat -o -n -a | findstr 127.0.0.1:4000
+  - taskkill /F /PID ID
+
+
 ## What is Octopress?
 
 Octopress is [Jekyll](https://github.com/mojombo/jekyll) blogging at its finest.

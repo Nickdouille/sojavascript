@@ -14,6 +14,7 @@ group :development do
   gem 'rubypants', '~> 0.2.0'
   gem 'rb-fsevent', '~> 0.9'
   gem 'stringex', '~> 1.4.0'
+  gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 end
 
 gem 'sinatra', '~> 1.4.2'
