@@ -5,7 +5,7 @@ date: 2015-01-21 15:53:14 +0000
 comments: false
 categories: [javascript, critique]
 keywords: javascript, critique, livre, javascript, one web, responsive, adaptive, design, syvain, pollet-villard
-published: true
+published: false
 ---
 *aux sources des approches responsive et adaptative, de Sylvain POLLET-VILLARD*
 
