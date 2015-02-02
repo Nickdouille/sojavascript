@@ -27,8 +27,8 @@ fr: &default
   category_title_prefix: 'Catégorie : '                          
   updated: Mis à jour
   nav_about: A propos
-  nav_archives: Liste des articles
-  nav_categories: Liste des catégories
+  nav_archives: Articles
+  nav_categories: Catégories
   foot_powered_by: Propulsé par
   search: Rechercher
   subRss: suivre via RSS
