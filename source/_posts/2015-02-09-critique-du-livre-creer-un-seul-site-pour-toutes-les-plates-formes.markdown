@@ -7,7 +7,6 @@ categories: [javascript, critique]
 keywords: javascript, critique, livre, javascript, one web, responsive, adaptive, design, sylvain pollet-villard
 ---
 ### aux sources des approches responsive et adaptative, de Sylvain Pollet-Villard
-*ISBN-10: 2212139861 / ISBN-13: 978-2212139860*
 
 ### À propos de l'auteur
 *[Sylvain Pollet-Villard](http://www.syllab.fr/) est ingénieur (ISEN de Lille) d'études et développement expert en web front-end. Il est auteur de [nombreux jeux](http://syllab.fr/#play) ou [expérimentations](http://syllab.fr/#lab) aussi funs que loufoques. Il est également bénévole pour répondre aux questions des développeurs débutants sur les forums de [developpez.net](http://www.developpez.net/forums/), en particulier sur le forum JavaScript. Il se peut que vous le croisiez aux détours d'une [ChtiJS](https://twitter.com/chtijs) (meetups sur JavaScript) ou d'un apéro [WelshDesign](https://twitter.com/welsh_design) (meetups sur les métiers du front, orientés UI/UX).*
@@ -47,3 +46,5 @@ Ce que j'ai aimé dans ce livre :
 - ... et plus particulièrement la partie sur les tests
 
 Sylvain nous offre là un livre très clair et concis (120 pages) dans l'air du temps, bourré de bonnes pratiques pour réaliser un site adapté à plusieurs appareils et donc plusieurs écrans. A la fin de ce bouquin, vous serez en mesure d'avoir les meilleures bases pour créer un site "responsive/adaptive".
+
+*ISBN-10: 2212139861 / ISBN-13: 978-2212139860*

@@ -7,7 +7,6 @@ categories: [javascript, critique]
 keywords: javascript, critique, livre, javascript, guide complet, nicolas froidure, débutant
 ---
 ### le Guide Complet, de Nicolas Froidure
-*ISBN-10: 2822408653 / ISBN-13: 978-2822408653*
 
 * TOC
 {:toc}
@@ -58,3 +57,5 @@ Enfin, le gros plus de ce livre est qu'il n'utilise que le "Vanilla JS" (compren
 
 Le JavaScript est un langage en plein essor. On n'apprend pas le JavaScript en 2014 comme on pouvait l'apprendre en 2003, 2007 ou encore en 2010.
 Ce livre est donc, aujourd'hui, un des meilleurs (en français!) pour apprendre JavaScript avec les outils et méthodes de 2014 et le sera encore pour quelques années je pense.
+
+*ISBN-10: 2822408653 / ISBN-13: 978-2822408653*

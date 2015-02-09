@@ -7,7 +7,6 @@ categories: [javascript, critique]
 keywords: javascript, critique, livre, the good parts, douglas crockford
 --- 
 ### de Douglas Crockford
-*ISBN-10: 0596517742 / ISBN-13: 978-0596517748*
 
 Ce livre, écrit par Douglas Crockford, est destiné à un public intermédiaire en JavaScript, ayant déjà connaissance des bases du langage. Il est court, une centaine de pages sans les annexes. Les "bonnes pratiques", selon l'auteur, sont décrites de façons claires, concises et facilement compréhensibles pour peu que vous ayez déjà des notions en JavaScript.
 
@@ -37,3 +36,5 @@ Ce livre m'a donc littéralement ouvert les yeux sur certaines pratiques que je 
 A la fin de ce livre, vous serez donc avertis de ce qu'il faut faire en JavaScript pour éviter les pièges classiques qui font malheureusement partie du langage de par son historique. Si vous avez l'ambition de parfaire vos connaissances en JavaScript, vous devez lire ce livre !
 
 Il existe une version Version Française, *JavaScript : Gardez le meilleur*, traduit par Patrick Fabre. Cependant, je pense qu'il est préférable de le lire en Version Originale si vous êtes à l'aise avec l'anglais. Car dans la traduction, ce qui ne devrait pas être traduit, selon moi, l'est. Par exemple, la *closure* devient la *fermeture*. Pourquoi apprendre de nouveaux termes techniques que nous ne reverrons nulle part ailleurs ?
+
+*ISBN-10: 0596517742 / ISBN-13: 978-0596517748*

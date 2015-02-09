@@ -7,7 +7,6 @@ categories: [javascript, critique]
 keywords: javascript, critique, livre, javascript, enlightenment, cody lindley
 ---
 ### de Cody Lindley
-*ISBN-10: 1449342884 / ISBN-13: 978-1449342883*
 
 *TL;DR
 Ce livre est réservé, selon l'auteur, à des débutants ayant déjà manipulé JavaScript ou une librairie JavaScript (jQuery par exemple). Il enseigne en profondeur le fonctionnement des objets JavaScript : les objets natifs (`Object`, `Array`, `String`, etc), les primitives (`"string"`, `12`, `false`, `undefined`, `null`) et les objets définis par le développeur. Comme tout est objet, ou peut être utilisé comme tel en JavaScript, l'auteur part du principe que si ce point est compris, alors le lecteur aura toutes les bases pour comprendre le langage et ainsi passer d'un développeur utilisant une librairie à un développeur JavaScript*
@@ -45,3 +44,5 @@ De fait, lu avant 2011, ce livre est parfait pour comprendre la vraie nature de 
 ### Conclusion
 
 JavaScript Enlightenment aurait pu être une référence intemporelle sans ses listes de propriétés d'objets ES3 et l'exemple sur [underscore](http://underscorejs.org/). Outre ce point négatif et une fois habitué au style littéraire de l'auteur, ce livre conviendra parfaitement aux débutants expérimentés qui comprendront parfaitement la logique objet de JavaScript
+
+*ISBN-10: 1449342884 / ISBN-13: 978-1449342883*
