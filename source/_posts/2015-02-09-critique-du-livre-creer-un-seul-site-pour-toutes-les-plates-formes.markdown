@@ -25,7 +25,7 @@ Pourquoi développer plusieurs versions d'un site web [...] ? Il est possible de
 
 Ce livre est destiné aux webdesigners, intégrateurs, développeurs web, chargés de marketing et responsables de communication. Il faut avoir au moins participé à l'élaboration d'un site afin de bien comprendre le livre. Il n'est donc pas adressé à un public débutant.
 
-Il tente de répondre à une problématique : face à la recrudescence des objets connectés, comment faire en sorte que son site soit compatible avec tous les appareils sans avoir besoin de maintenir plusieurs versions ? (Il ne traite néanmoins pas des objets connectés, tels les montres, lunettes ou smart TV, jugés trop instables pour le moment). La réponse à cette problématique est accompagnée d'un [site compagnon](http://onecake.syllab.fr/) qui permet de mettre en pratique la théorie parfaitement maitrisée par l'auteur.
+Il tente de répondre à une problématique : face à la recrudescence des objets connectés, comment faire en sorte que son site soit compatible avec tous les appareils sans avoir besoin de maintenir plusieurs versions ? (Il ne traite néanmoins pas des objets connectés, tels les montres, lunettes ou smart TV, jugés trop instables pour le moment). La réponse à cette problématique est accompagnée d'un [site compagnon](http://onecake.syllab.fr/) qui permet de mettre en pratique la théorie parfaitement maîtrisée par l'auteur.
 
 Il y a quatre grosses parties dans ce livre :
 
@@ -39,12 +39,12 @@ Chacune des ces parties est très complète, la précédente amène toujours la 
 Ce que j'ai aimé dans ce livre :
 
 - Chaque partie commence par une phrase d'introduction décrivant parfaitement ce que l'on va lire
-- Les encarts "Pour aller plus loin", "Remarques" qui proposent au lecteur d'appronfondir le sujet
+- Les encarts "Pour aller plus loin", "Remarques" qui proposent au lecteur d'approfondir le sujet
 - Le site web compagnon
 - Le côté technique omniprésent mais accompagné d'exemples concrets
-- Le dernier chapitre qui liste les outils d'ajourd'hui qui nous permettent de gagner du temps (préprocesseurs CSS, outils de build Grunt/Gulp, debugging, tests, etc)
+- Le dernier chapitre qui liste les outils d'aujourd'hui qui nous permettent de gagner du temps (préprocesseurs CSS, outils de build Grunt/Gulp, debugging, tests, etc)
 - ... et plus particulièrement la partie sur les tests
 
-Sylvain nous offre là un livre très clair et concis (120 pages) dans l'air du temps, bourré de bonnes pratiques pour réaliser un site adapté à plusieurs appareils et donc plusieurs écrans. A la fin de ce bouquin, vous serez en mesure d'avoir les meilleures bases pour créer un site "responsive/adaptive".
+Sylvain nous offre là un livre très clair et concis (120 pages) dans l'air du temps, bourré de bonnes pratiques pour réaliser un site adapté à plusieurs appareils et donc plusieurs écrans. A la fin de ce livre, vous serez en mesure d'avoir les meilleures bases pour créer un site "responsive/adaptive".
 
 *ISBN-10: 2212139861 / ISBN-13: 978-2212139860*
